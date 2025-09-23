@@ -1,0 +1,38 @@
+﻿@model List<MyWebsite1.Models.Photo>
+@{
+    ViewData["Title"] = "Browse Feed";
+    ViewData["CurrentPage"] = "Browse Feed";
+}
+
+<div class="container mt-4">
+    <h1>@ViewData["Title"]</h1>
+
+    <div class="row">
+        @foreach (var photo in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    @* Display image if it exists *@
+                    @if (photo.ImageData != null && photo.ImageData.Length > 0)
+                    {
+                        <img src="data:image;base64,@Convert.ToBase64String(photo.ImageData)" 
+                             class="card-img-top" 
+                             alt="@photo.Title"
+                             loading="lazy" />
+                        <div class="card-body">
+                            <h5 class="card-title">@photo.Title</h5>
+                            <p class="card-text">@photo.DateCreated.ToString("MM/dd/yyyy")</p>
+                            <a href="@Url.Action("Details", "Gallery", new { id = photo.Id })" class="btn btn-pink">View Photo</a>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="card-body">
+                            <p>No image available.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
