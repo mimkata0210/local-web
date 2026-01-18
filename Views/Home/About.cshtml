@@ -1,10 +1,20 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-    ViewBag.Title = "About";
+﻿@{
+    ViewData["Title"] = "About";
     ViewData["CurrentPage"] = "About";
 }
 
-<h1>About us</h1>
-<p>Welcome to the blog. Here is more information about us.</p>
+<div class="container mt-5 mb-5">
+    <div class="card p-4 shadow-sm" style="background-color: var(--card-bg); color: var(--fg);">
+        <h1 class="mb-4 fs-3">About Us</h1>
+        <p>Welcome to our website! Here you can find information about our mission, goals, and team.</p>
+
+        <h3 class="mt-4 mb-2 fs-5">Our Mission</h3>
+        <p>We aim to provide a clean, intuitive, and user-friendly platform for managing your personal files and galleries.</p>
+
+        <h3 class="mt-4 mb-2 fs-5">Our Vision</h3>
+        <p>To create a seamless experience where users can upload, share, and organize their photos and documents effortlessly, all while maintaining privacy and security.</p>
+
+        <h3 class="mt-4 mb-2 fs-5">Our Team</h3>
+        <p>Our dedicated team of developers and designers work tirelessly to ensure a responsive, modern, and visually appealing interface that works across all devices.</p>
+    </div>
+</div>

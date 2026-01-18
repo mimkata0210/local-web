@@ -25,7 +25,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    db.Photos.Take(1).ToList(); // dummy query to compile model
+  //  db.Photos.Take(1).ToList(); // dummy query to compile model
 }
 
 // Configure the HTTP request pipeline.

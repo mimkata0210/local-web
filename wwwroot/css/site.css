@@ -1,18 +1,33 @@
 ﻿/* Light theme (default) */
-:root {
-    --bg: #f1d7e4; /* main background pink */
-    --fg: #111; /* dark text */
-    --card-bg: #eaadcc; /* darker pink for navbar/footer/cards#e5a7c6 #d786ae #f5c4d9 #f5c1d7 #e0a2c1 #ebb8d2 */
+/*:root {
+    --bg: #f1d7e4; /* main background pink 
+    --fg: #111; /* dark text 
+    --card-bg: #eaadcc; /* darker pink for navbar/footer/cards#e5a7c6 #d786ae #f5c4d9 #f5c1d7 #e0a2c1 #ebb8d2 
     --link: #007bff;
     --border: #ddd;
     --muted: #6c757d;
     --invert: 0;
     --footer-link: #8d8c8f;
-    --active-link: #fff; /* highlighted text */
+    --active-link: #fff; /* highlighted text 
 
     --btn-outline-pink-border: #d786ae;
     --btn-pink-bg: #eaadcc;
     --btn-pink-hover-bg: #c26c9a;
+}*/
+
+:root {
+    --bg: #f4f4f8;
+    --fg: #111;
+    --card-bg: #f6dce9;
+    --link: #1a73e8;
+    --border: #d1d5db;
+    --muted: #6c757d;
+    --invert: 0;
+    --footer-link: #555;
+    --active-link: #1a73e8;
+    --btn-outline-pink-border: #d1a0b0;
+    --btn-pink-bg: #f2d7e4;
+    --btn-pink-hover-bg: #e6b0c0;
 }
 
 /* Dark theme */
