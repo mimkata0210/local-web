@@ -229,9 +229,9 @@
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "wwwroot\\css\\site.css*",
-              "ViewState": "AgIAAO8AAAAAAAAAAAAIwAgBAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAIwPQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-02-06T08:54:51.848Z",
               "EditorCaption": ""
@@ -246,8 +246,7 @@
               "RelativeToolTip": "Views\\Gallery\\Feed.cshtml",
               "ViewState": "AgIAAAsAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T15:36:04.116Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T15:36:04.116Z"
             },
             {
               "$type": "Document",
@@ -271,8 +270,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAANwAAAAAAAAAAAAgwOoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-01T15:13:46.883Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T15:13:46.883Z"
             },
             {
               "$type": "Document",
@@ -316,12 +314,11 @@
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\Views\\Gallery\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Gallery\\Details.cshtml",
-              "ToolTip": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\Views\\Gallery\\Details.cshtml*",
-              "RelativeToolTip": "Views\\Gallery\\Details.cshtml*",
+              "ToolTip": "C:\\Users\\mimka\\Documents\\GitHub\\local-web\\Views\\Gallery\\Details.cshtml",
+              "RelativeToolTip": "Views\\Gallery\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-06T09:34:28.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-06T09:34:28.877Z"
             },
             {
               "$type": "Document",
