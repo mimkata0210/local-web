@@ -253,6 +253,16 @@ footer,
     object-fit: cover;
 }
 
+.photo-details-card {
+    max-width: 100%;
+}
+
+    .photo-details-card .card-img-top {
+        max-height: none;
+        width: 100%;
+        object-fit: contain;
+    }
+
 .btn-outline-pink {
     border-color: var(--btn-outline-pink-border);
     color: var(--btn-outline-pink-border);
