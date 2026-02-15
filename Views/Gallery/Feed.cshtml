@@ -5,29 +5,29 @@
 }
 
 <div class="container mt-4">
-    <h1>@ViewData["Title"]</h1>
+    <h1 class="text-center">@ViewData["Title"]</h1>
 
-    <div class="row">
-        @foreach (var photo in Model)
+    <div class="row justify-content-center">
+        @foreach (var photoWithIndex in Model.Select((photo, index) => new { photo, index }))
         {
-            <div class="col-md-4 mb-3">
+            <div class="col-12 mb-3 @(photoWithIndex.index == 0 ? "mt-5" : "")">
                 <div class="card">
                     @* Display image if it exists *@
-                    @if (photo.ImageData != null && photo.ImageData.Length > 0)
+                    @if (photoWithIndex.photo.ImageData != null && photoWithIndex.photo.ImageData.Length > 0)
                     {
-                        <img src="data:image;base64,@Convert.ToBase64String(photo.ImageData)" 
-                             class="card-img-top" 
-                             alt="@photo.Title"
+                        <img src="data:image;base64,@Convert.ToBase64String(photoWithIndex.photo.ImageData)"
+                             class="card-img-top"
+                             alt="@photoWithIndex.photo.Title"
                              loading="lazy" />
-                        <div class="card-body">
-                            <h5 class="card-title">@photo.Title</h5>
-                            <p class="card-text">@photo.DateCreated.ToString("MM/dd/yyyy")</p>
-                            <a href="@Url.Action("Details", "Gallery", new { id = photo.Id })" class="btn btn-pink">View Photo</a>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">@photoWithIndex.photo.Title</h5>
+                            <p class="card-text">@photoWithIndex.photo.DateCreated.ToString("MM/dd/yyyy")</p>
+                            <a href="@Url.Action("Details", "Gallery", new { id = photoWithIndex.photo.Id })" class="btn btn-pink">View Photo</a>
                         </div>
                     }
                     else
                     {
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <p>No image available.</p>
                         </div>
                     }

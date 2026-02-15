@@ -20,7 +20,7 @@
 
 <body data-theme="light" class="d-flex flex-column min-vh-100">
     <header>
-        <nav id="mainNavbar" class="navbar navbar-expand-lg">
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 @*<a class="navbar-brand @(path == "/" ? "active" : "")" href="/">MyApp</a>*@
                 <a class="navbar-brand" href="/">MyApp</a>
@@ -80,7 +80,7 @@
         </nav>
     </header>
 
-    <main class="container mt-5 flex-grow-1">
+    <main class="container pt-5 flex-grow-1">
         @RenderBody()
     </main>
 
@@ -139,7 +139,7 @@
     }
 
 
-    <footer id="mainFooter" class="text-center py-2 mt-auto">
+    <footer id="mainFooter" class="text-center py-2 fixed-bottom">
         <div class="container">
             <nav class="d-flex justify-content-center gap-4 mt-1 mb-2">
                 <a href="/Privacy" style="font-size:0.96rem;">Privacy Policy</a>

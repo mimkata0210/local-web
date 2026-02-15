@@ -243,6 +243,15 @@ footer,
     font-size: 0.85em;
     color: var(--muted);
 }
+.card {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
 
 .btn-outline-pink {
     border-color: var(--btn-outline-pink-border);
